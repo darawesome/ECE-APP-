@@ -1,0 +1,24 @@
+<head>
+<link href= "/stylesheets/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<table>
+	<tr>
+		<th>Child ID</th>
+		<th>Name</th>
+		<th>Child Age</th>
+        <th>Parent Name</th>
+        <th>Parent Email</th>
+	</tr>
+		
+	<% if (childrenData.length !=0) {var i=1; childrenData.forEach( function(data) {
+	%>
+		<tr>
+			<td><%=data.childId %></td>
+			<td><%=data.childName %></td>
+			<td><%=data.childAge %></td>
+            <td><%=data.parentName %></td>
+            <td><%=data.parentEmail %></td>
+		</tr>
+		<% i++; }) %> <%}%>
+		
+</table>

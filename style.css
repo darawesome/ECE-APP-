@@ -1,0 +1,237 @@
+head {
+    background-image: url(image3.png);
+}
+body {
+    background-image: linear-gradient(#fdf063, #fefef2);
+    background-repeat: no-repeat;    
+    }
+div {
+    opacity: 60;
+    }
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+ 
+p {
+text-align: center;
+font-size: 16px;
+}
+ 
+p::first-letter {
+  font-size: 140%;
+  font-style: bold;
+}
+ 
+table {
+    border-collapse:collapse;
+    height: 300px;
+    width: 70%;
+    border: 1px solid rgb(300, 300, 300);
+    letter-spacing: 0.5px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+ 
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+ 
+th {
+    background-color: yellow;
+}
+ 
+tr:hover {
+    background-color: lightblue;
+}
+ 
+div {
+  border-radius: 0px;
+  padding: 20px;
+}
+
+#divHome
+{
+  border: 3px solid #00ff00;
+  margin: 1cm 1cm 1cm 0.5cm;
+}
+
+#divGet
+{
+  border: 4px solid #FF0000;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#myChart
+{
+  border: 4px solid #FF0000;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+            #leftbox {
+                float:left; 
+                width:40%;
+            }
+            #middlebox{
+                float:left; 
+                width:50%;
+            }
+            #rightbox{
+                float:right;
+                width:25%;
+
+            }
+.container1 {
+  background-color: #F1E6BE;
+  	font-size: 18px;
+  justify-content: left;
+}
+
+.container2 {
+	background-color: lightgoldenrodyellow;
+	font-size: 20px;
+    justify-content: left;
+    
+}
+
+.center {
+	display: flex;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.welcome {
+    border: 10px solid white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.signin {
+   border: 10px solid white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.signup {
+   border: 10px solid white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+input[type=username], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+            #leftbox {
+                float:left; 
+                width:40%;
+            }
+            #middlebox{
+                float:left; 
+                width:50%;
+            }
+            #rightbox{
+                float:right;
+                width:25%;
+
+            }
+
+input[type=parentName], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+            #leftbox {
+                float:left; 
+                width:40%;
+            }
+            #middlebox{
+                float:left; 
+                width:50%;
+            }
+            #rightbox{
+                float:right;
+                width:25%;
+
+            }
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+            #leftbox {
+                float:left; 
+                width:40%;
+            }
+            #middlebox{
+                float:left; 
+                width:50%;
+            }
+            #rightbox{
+                float:right;
+                width:25%;
+
+            }
+
+.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 210px;
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+

@@ -1,0 +1,41 @@
+<head>
+<link href= "/stylesheets/style.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    
+</head>
+
+ <div class="logo"><img src='/images/image3.png' width="200" height="100"></a></div>
+        
+    <div class = "container1">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="active"><a href=/>Home</a></li>
+            <li><a href=getDailyMeals>Daily Meals</a></li>
+            <li><a href=getAccidentReports>Accidents</a></li>
+            <li><a href=getSleepLogs>Sleep</a></li>
+        </ul>
+    </div>
+</head>
+<table>
+	<tr>
+		
+        <th>Breakfast</th>
+		<th>Morning Tea</th>
+		<th>Lunch</th>
+		<th>Afternoon Tea</th>
+        <th>Child ID</th>
+	</tr>
+		
+	<% if (dailyMealData.length !=0) {var i=1; dailyMealData.forEach( function(data) {
+	%>
+		<tr>
+			
+            <td><%=data.breakfast %></td>
+			<td><%=data.morningTea %></td>
+			<td><%=data.lunch %></td>
+			<td><%=data.afternoonTea %></td>
+            <td><%=data.childID %></td>
+		</tr>
+		<% i++; }) %> <%}%>
+		
+</table>
